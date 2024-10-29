@@ -45,4 +45,3 @@ systemctl restart mysqld
 
 echo "MySQL 8.0 安装完成，端口为 $PORT，初始密码为 $PASSWORD，现在可以通过 0.0.0.0 访问。"
 
-mysql --connect-expired-password -u root -p";>WbMiDBt4:k" -e "alter user 'root'@'localhost' identified with mysql_native_password by 'Abcd1234@'";
